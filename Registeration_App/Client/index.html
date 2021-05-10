@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="stylesheet.css" />
+    <title>Registeration</title>
+  </head>
+  <body>
+    <h1>Registeration</h1>
+    <main>
+      <label>FirstName:</label>
+      <input type="text" id="firstname-input" />
+      <label>LastName:</label>
+      <input type="text" id="lastname-input" />
+      <label>EmailID:</label>
+      <input type="text" id="email-input" />
+      <label>Password:</label>
+      <input type="password" id="password-input" />
+      <label>OrganizationName:</label>
+      <input type="text" id="organizationname-input" />
+      <br />
+      <br />
+      <button id="register-btn">Register</button>
+
+      <br /><br />
+      <div>
+        <input placeholder="firstname/lastname/employeeid" id="search-input" />
+        <button id="search-btn">Search</button>
+      </div>
+
+      <table id="table">
+        <thead>
+          <th>EmployeeID</th>
+          <th>FirtsName</th>
+          <th>LastName</th>
+          <th>EmailID</th>
+          <th>OrgName</th>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
